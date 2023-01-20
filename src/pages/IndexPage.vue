@@ -1,11 +1,5 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <example-component
-      title="Example component"
-      active
-      :todos="todos"
-      :meta="meta"
-    ></example-component>
     <QCalendarDay
       :weekdays="[1,2,3,4,5]"
       locale="ru"
